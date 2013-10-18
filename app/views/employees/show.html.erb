@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @employee.name %>
+</p>
+
+<%= debug @employee %>
+<p>
+<b> Title: </b>
+<%= @employee.name %>
+</p>
+
+<%= simple_format @employee.to_yaml %>
+<p>
+<b>EMP:</b>
+<%= @employee.name %>
+</p>
+
+<%= link_to 'Edit', edit_employee_path(@employee) %> |
+<%= link_to 'Back', employees_path %>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  log_date: 2013-08-17 14:44:53
+  hours_spent: 1
+  employee_id: 1
+
+two:
+  log_date: 2013-08-17 14:44:53
+  hours_spent: 1
+  employee_id: 1

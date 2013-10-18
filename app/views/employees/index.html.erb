@@ -1,0 +1,36 @@
+
+<div class ="container">
+<h1>Listing employees</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @employees.each do |employee| %>
+      <tr>
+
+        <td><%= link_to employee.name, {:action=>'view_timesheet_chart',:id=>employee.id} %></td>
+
+        <td><%= link_to 'Show', employee %></td>
+        <td><%= link_to 'Edit', edit_employee_path(employee) %></td>
+        <td><%= link_to 'Destroy', employee, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      
+      <td><%= link_to 'Time Chart', {:action=>'view_timesheet_chart',:id=>employee.id} %></td>
+        <td><%= link_to 'Chart', {:action=>'chart',:id=>employee.id} %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+</tr>
+</div>
+<!--%= link_to 'New Employee', new_employee_path %-->
+

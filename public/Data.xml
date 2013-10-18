@@ -1,0 +1,9 @@
+<graph xAxisName="Day" showValues="1" caption="Time Tracker Chart" numberSuffix=" hrs." subcaption="For Employee John Wilson" yAxisName="Hours Spent">
+    <set name="Monday" value="8" color="AFD8F8"/>
+    <set name="Tuesday" value="6" color="F6BD0F"/>
+
+    <set name="Wednesday" value="5" color="8BBA00"/>
+    <set name="Thursday" value="9" color="A66EDD"/>
+    <set name="Friday" value="9" color="F984A1"/>
+    <set name="Saturday" value="8" color="CCCC00"/>
+</graph>
